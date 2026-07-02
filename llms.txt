@@ -1,0 +1,339 @@
+# MTK Screws – Aggarwal Industries
+# https://mtkscrews.com/llms.txt
+# This file is intended for AI language models and automated crawlers.
+# Also searched as: mtkscrews, mtk screws, mtk screws india
+
+## Company Overview
+
+MTK Screws (also written "mtkscrews", brand name of Aggarwal Industries) is an
+ISO 9001:2015 certified manufacturer and exporter of stainless steel industrial
+fasteners, established in 1983 and based in Kasna Industrial Area, Greater
+Noida, Uttar Pradesh, India.
+
+The company operates both a manufacturing division (in-house production) and a
+trading division (stocked and distributed products), providing customers with a
+single supplier for a wide range of fastener requirements.
+
+Key facts:
+- Founded: 1983
+- Certification: ISO 9001:2015
+- Standards: DIN, ISO, ANSI, IS (Bureau of Indian Standards), BS, JIS
+- Manufacturing capacity: 1000+ metric tons per month
+- Global clients: 4000+
+- Export countries: 25+
+- Production facility: A-003/11, Site-V, Kasna Industrial Area, Greater Noida, UP – 201310, India
+- Business hours: Monday to Saturday, 9:00 AM - 5:30 PM IST
+
+---
+
+## Manufacturing Division
+
+Products manufactured in-house at the Kasna facility in stainless steel grades
+SS 201, SS 204, SS 304, and SS 316(L).
+
+### Machine Screws (Manufactured)
+Category slug: mfg-machine-screw
+Thread range: M2 – M6 and 1/8 – 1/4 inch
+Length range: 4 – 100 mm
+Finish: Bright passivated / electropolished
+Standards: ISO 1207, DIN 7985, IS 1366
+Applications: Electrical & electronics assembly, sheet-metal fabrication,
+industrial machinery, OEM assembly lines
+
+Products:
+1. Pan Phillips – Rounded pan head with Phillips cross-drive. Most common
+   general-purpose machine screw. Tag: Bestseller.
+2. CSK Phillips – Countersunk Phillips machine screw. Flush-sit installation.
+3. Truss Phillips – Wide low-profile truss head. Distributes clamping load
+   over thin material.
+4. Combination – Combination drive (Phillips + slotted). Driveable with
+   either screwdriver type.
+5. Combiwasher – Pan head with integrated captive washer. Distributes load
+   and prevents head damage.
+6. CSK Head Torx – Countersunk head with Torx (star) recess. Flush finish
+   with superior cam-out resistance. Tag: High Torque.
+7. Torx Button Head – Low-domed button head with Torx (star) recess. Superior
+   cam-out resistance for high-torque applications. Tag: High Torque.
+8. LN Button Head – Button head with internal hex (Allen) drive. Low-profile
+   alternative to socket cap screws.
+9. LN CSK Head – Countersunk head with internal hex drive. Flush finish with
+   Allen-key tightening.
+
+### Self Tapping Screws (Manufactured)
+Category slug: mfg-self-tapping
+Thread range: #2 (2.4 mm) – #14 (6.3 mm)
+Length range: 4.5 – 100 mm
+Hardness: Case hardened HRC 28–38
+Standards: DIN 7981, DIN 7982, IS 7510
+Applications: Sheet-metal fabrication, HVAC ducting, white-goods assembly,
+joinery and wood-to-metal connections
+
+Products:
+1. Pan Phillips – Rounded pan head with Phillips cross-drive. Most versatile
+   general-purpose self-tapping screw. Tag: Bestseller.
+2. CSK Phillips – Countersunk Phillips self-tapping screw. Flush finish in
+   sheet metal, plastic and wood.
+3. Truss Phillips – Wide low-profile truss head. Broad bearing surface for
+   thin material.
+4. Combiwasher – Pan head with integrated captive washer. Higher pull-out
+   resistance. Tag: Popular.
+5. Combination – Combination drive (Phillips + slotted). Service-friendly
+   for field maintenance.
+6. Wooden Screw – Coarse-pitch CSK self-tapping screw with sharp gimlet
+   point. For softwood and hardwood. Threads #5–#10, lengths 20–100 mm.
+
+---
+
+## Trading Division
+
+Stocked products for same-day or fast dispatch.
+
+### Self Drilling Screws (Trading)
+Category slug: trd-self-drilling
+Material: Carbon steel / SS 304
+Coating: Yellow zinc / Galvanised
+Hardness: HRC 28–38
+Standards: DIN 7504, ISO 15480
+Applications: Metal roofing & cladding, HVAC ducting, steel-to-steel fastening,
+greenhouse/shed construction
+
+Products:
+1. Hex Head SDS – Hex head self-drilling screw for metal-to-metal fastening.
+2. EPDM Bonded Hex Flange Head SDS – Weatherproof seal for roofing applications.
+3. Hex Head Stitching Screw – For joining overlapping metal sheets.
+4. SDS Sockett – Magnetic hex socket driver for SDS installation. Accessory.
+5. Cyclone Washers – Heavy-gauge EPDM sealing washer for metal roofing.
+6. Truss Head SDS – Wide low-domed head. Distributes load over thin material.
+7. CSK Head SDS – Countersunk head. Flush finish for metal-to-metal joints.
+8. Pan Head SDS – Standard pan head for general drilling-and-fastening.
+9. PH2 Bitt – Phillips #2 driver bit for cordless drills. Accessory.
+10. EPDM Washer – Standalone EPDM-bonded washer for sealing.
+
+### Self Tapping Screws (Trading)
+Category slug: trd-self-tapping
+Material: SS 304 / MS Zinc Plated
+Hardness: HRC 28–38
+Standards: DIN 7971, DIN 7981, IS 7510
+Applications: Sheet-metal assembly, electrical enclosures, furniture,
+white goods
+
+Products:
+1. Pan Slotted Screw – Pan head with slotted drive. Traditional hand-driven.
+2. Pan Phillips Screw – Pan head with Phillips drive. High-volume workhorse.
+   Tag: Stocked.
+3. CSK Slotted Screw – Countersunk head with slotted drive. Flush finish.
+4. CSK Phillips Screw – Countersunk Phillips. Flush finish for cabinetry.
+5. Truss Head Screw – Wide truss head for thin or soft sheet.
+6. Combination Head Screw – Phillips + slotted dual drive.
+7. Combi-Washer Head Screw – Pan head with integrated captive washer.
+8. Drywall Screw – Bugle head for fixing drywall to wood or metal studs.
+   Tag: Bestseller.
+9. Chipboard Screw – Coarse-pitch screw for chipboard, MDF, plywood.
+
+### Machine Screws (Trading)
+Category slug: trd-machine-screw
+Material: SS 304 / MS Zinc Plated
+Thread range: M3 – M12
+Length range: 6 – 50 mm
+Standards: ISO 7045, ISO 7046, DIN 7985
+Applications: Industrial assembly, OEM production, maintenance, electrical panels
+
+Products:
+1. Pan Phillips Washer Screw – Pan head with integrated washer. Tag: Stocked.
+2. CSK Phillips Screw – Countersunk Phillips for flush-finish assemblies.
+3. Truss Phillips Screw – Wide truss head for thin-material applications.
+4. Combi-Washer Screw – Combination drive with integrated washer.
+
+### Rivets (Trading)
+Category slug: trd-rivets
+Diameter range: 2.4 – 6.4 mm
+Grip range: 1 – 18 mm
+Materials: Aluminium / Steel / SS 304
+Standards: DIN 7337, ISO 15983, IFI-114
+Applications: Sheet-metal joining, ducting, signboard assembly
+
+Products:
+1. Aluminium Pop Rivet – Standard blind rivet. Aluminium body, steel mandrel.
+   Tag: Bestseller.
+2. Coloured Pop Rivet – Powder-coated head in 10+ colours for cladding panels.
+3. Hammer Rivet – Solid drive-in rivet for plastic/wood fixings. No tool needed.
+4. Tinmen Rivet – Solid tubular rivet for sheet-metal trade.
+5. Double Hand Riveting Gun – Heavy-duty manual riveting gun. Tool.
+
+### Fasteners / Anchors (Trading)
+Category slug: trd-fasteners
+Material: MS Zinc Plated / SS
+Size range: M6 – M16
+Length range: 50 – 150 mm
+Standards: ETA approvals available, IS 1367
+Applications: Concrete & masonry anchoring, structural steel fixings,
+heavy machinery foundation, signage installation
+
+Products:
+1. Frame Fixing Fastener – Expansion sleeve anchor for window/door frames.
+   Tag: Stocked.
+2. Wedge Anchor Fastener – Heavy-duty wedge anchor for solid concrete.
+3. Pin Type Fastener – Steel nail-in anchor for light to medium fixings.
+4. Bolt Type Fastener – Hex-head sleeve anchor for through-bolting.
+5. Hook Type Fastener – Hook-end anchor bolt for hanging from ceilings.
+6. Coach Head Screw – Heavy hex-head wood screw (lag bolt) for timber.
+
+### Allen Bolts (Trading)
+Category slug: trd-allen-bolt
+Grade range: 8.8 / 10.9 / 12.9 and SS 304
+Thread range: M3 – M20
+Length range: 6 – 100 mm
+Standards: DIN 912, ISO 4762, DIN 7991
+Applications: Machine assembly, precision tooling, restricted-access fastening,
+high-strength joints
+
+Products:
+1. CSK Head LN Bolt – Countersunk Allen bolt. Flush finish, high-torque.
+2. Truss Head LN Bolt – Wide low-profile truss head with internal hex drive.
+3. LN Bolt – Standard socket head cap screw (Allen bolt). Tag: Bestseller.
+
+---
+
+## Quality & Certifications
+
+- ISO 9001:2015 Quality Management System
+- CE Marking for EU market exports
+- RoHS Compliant manufacturing
+- Manufacturing standards: DIN, ISO, ANSI, IS, BS, JIS
+- In-house quality processes: raw material chemical analysis, tensile strength
+  testing, dimensional inspection
+- Quality pass rate: 99.8%
+- Quality control checkpoints: 15+
+- In-line monitoring: 24/7
+
+---
+
+## Contact Information
+
+Company: MTK Screws – Aggarwal Industries
+Address: A-003/11, Site-V, Kasna Industrial Area, Greater Noida, UP – 201310, India
+Phone 1: +91 97112 21918
+Phone 2: +91 98102 29770
+Email: aggarwalindustries311@gmail.com
+WhatsApp: https://wa.me/919711221918?text=Hi
+Hours: Monday – Saturday, 9:00 AM - 5:30 PM IST
+
+Social:
+- LinkedIn: https://www.linkedin.com/in/aggarwal-industries-203b47394
+- Instagram: https://www.instagram.com/aggarwalindustries311
+
+---
+
+## Frequently Asked Questions
+
+Q: What is MTK Screws?
+A: MTK Screws is the fastener brand of Aggarwal Industries, an ISO 9001:2015
+certified manufacturer and trader of industrial stainless steel fasteners based
+in Kasna Industrial Area, Greater Noida, India. Founded in 1983, MTK Screws
+manufactures machine screws and self-tapping screws in-house and trades
+self-drilling screws, rivets, allen bolts, and anchors — supplying 4000+
+clients pan-India from a single source.
+
+Q: Which is the best screw manufacturer in India?
+A: The right fastener manufacturer depends on material grade, standards, and
+volume needs — but a few things set MTK Screws (Aggarwal Industries) apart:
+40+ years of manufacturing experience since 1983, ISO 9001:2015 certification,
+in-house production of stainless steel machine screws and self-tapping screws,
+a 99.8% quality pass rate across 15+ QC checkpoints, and 1000+ metric
+tons/month capacity serving 4000+ clients. Combined with a stocked trading
+division for self-drilling screws, rivets, allen bolts, and anchors, MTK
+Screws gives buyers a single source for 52+ fastener products.
+
+Q: What types of fasteners does MTK Screws manufacture?
+A: MTK Screws manufactures precision stainless steel machine screws and
+self-tapping screws in-house at its Kasna Industrial Area facility in Greater
+Noida, and trades self-drilling screws, rivets, allen bolts, and structural
+fasteners/anchors — a single supplier across 52 products in 8 categories.
+
+Q: What stainless steel grades are available?
+A: Manufactured products are available in SS 201, 204, 304, and 316(L). SS 304
+is the most popular grade for general industrial applications; SS 316(L) is
+recommended for marine, chemical, and outdoor environments requiring superior
+corrosion resistance.
+
+Q: Does MTK Screws supply custom-size fasteners?
+A: Yes. MTK Screws manufactures custom fasteners based on customer drawings
+and specifications, including non-standard thread pitches, special head
+profiles, unusual lengths, and private labelling.
+
+Q: Where is MTK Screws located?
+A: The manufacturing facility is at A-003/11, Site-V, Kasna Industrial Area,
+Greater Noida, Uttar Pradesh – 201310, India. Open Monday to Saturday, 9:00 AM
+to 6:00 PM IST. Phone: +91 97112 21918.
+
+Q: What is the difference between MTK Screws' manufacturing and trading
+divisions?
+A: Machine Screws (M2–M6) and Self Tapping Screws (#2–#14) are manufactured
+in-house in SS 201, 204, 304 and 316(L). The other six categories (Self
+Drilling Screws, additional Self Tapping/Machine Screw variants, Rivets,
+Fasteners/Anchors, Allen Bolts) are stocked and supplied through the trading
+division for fast dispatch — one supplier for both precision-manufactured and
+stocked fastener needs.
+
+Q: What does ISO 9001:2015 certification guarantee for a buyer?
+A: A documented quality management system with 15+ quality control
+checkpoints and a 99.8% quality pass rate, traceable batches, material test
+certificates on request, and conformance to DIN, ISO, ANSI, IS, BS and JIS
+standards.
+
+Q: What is the difference between DIN 7981 and DIN 7982 self-tapping screws?
+A: DIN 7981 is pan head (sits proud of the surface); DIN 7982 is countersunk
+(CSK) head (sits flush). Both share the same case-hardened thread form (HRC
+28–38) but differ in head shape for different finish requirements.
+
+Q: How do I choose the right screw head and drive type?
+A: Phillips is the general-purpose drive default; Torx and internal hex
+(Allen) resist cam-out for high-torque work; slotted suits low-torque
+hand-driven use. Pan heads are the general-purpose head default; CSK sits
+flush; truss spreads load over thin material; combi-washer heads add a
+captive washer against pull-through.
+
+Q: What are the best self-drilling screws for metal roofing and cladding?
+A: EPDM-bonded hex flange head self-drilling screws, optionally paired with
+heavy-gauge Cyclone Washers for corrugated sheet sealing. DIN 7504 / ISO
+15480, HRC 28–38.
+
+Q: Which machine screws are best for electronics/electrical panel assembly?
+A: Manufactured Pan Phillips or Combiwasher machine screws (M2–M6, SS
+304/316(L), bright passivated or electropolished finish), made to ISO 1207,
+DIN 7985, IS 1366.
+
+Q: Machine screw vs self-tapping screw — what's the difference?
+A: A machine screw needs a pre-tapped hole or nut and doesn't cut its own
+thread — used for assemblies that may be disassembled. A self-tapping screw
+cuts its own thread on install, which is faster where a pre-tapped hole isn't
+practical (sheet metal, plastic, wood).
+
+Q: What is the minimum order quantity (MOQ)?
+A: No minimum for standard stocked trading items. Manufactured products
+typically start at 5,000 pieces per SKU.
+
+Q: How do I request a quote?
+A: Via https://mtkscrews.com/contact, phone +91 97112 21918, or WhatsApp
+(https://wa.me/919711221918). Include product name, material grade, thread
+size, length, and quantity. Monday–Saturday, 9:00 AM–5:30 PM IST.
+
+Q: Does MTK Screws export outside India?
+A: Currently pan-India across 20+ states, actively working toward
+international exports.
+
+Full answers with additional detail: https://mtkscrews.com/faq
+
+---
+
+## Key Pages
+
+- Home: https://mtkscrews.com/
+- Products catalogue: https://mtkscrews.com/products
+- About us: https://mtkscrews.com/about
+- Certifications: https://mtkscrews.com/certifications
+- Gallery: https://mtkscrews.com/gallery
+- FAQ: https://mtkscrews.com/faq
+- Contact & quote: https://mtkscrews.com/contact
+- Product catalogue PDF: https://mtkscrews.com/assets/MTK%20Screws%20Catalog.pdf
+- Sitemap: https://mtkscrews.com/sitemap.xml

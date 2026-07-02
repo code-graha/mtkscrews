@@ -1,0 +1,91 @@
+/* ============================================================
+   MTK Screws — Global Stylesheet
+   Loaded on every page alongside Tailwind CSS CDN.
+   Tailwind config (colors, fonts, shadows, radii) is still
+   declared inline via <script>tailwind.config={…}</script>
+   because the CDN build requires it at runtime.
+   ============================================================ */
+
+/* Base reset & typography */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F6F8FB;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    text-wrap: balance;
+}
+
+p, li {
+    text-wrap: pretty;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar { width: 8px; }
+::-webkit-scrollbar-track { background: #F6F8FB; }
+::-webkit-scrollbar-thumb { background: #1f2429; border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: #ed1a25; }
+
+/* Asymmetric card shapes */
+.custom-card-shape     { border-radius: 24px 24px 24px 0; }
+.custom-card-shape-alt { border-radius: 24px 0 24px 24px; }
+
+/* Hide scrollbar (filter strips, horizontal scroll containers) */
+.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+/* Dot-grid image well — light (used on manufacturing cards) */
+.card-image-well,
+.hp-card-well,
+.image-well {
+    background-color: #F6F8FB;
+    background-image: radial-gradient(rgba(31, 36, 41, 0.10) 1px, transparent 1px);
+    background-size: 16px 16px;
+}
+
+/* Dot-grid image well — dark (used on trading cards) */
+.card-image-well-dark,
+.hp-card-well-dark,
+.image-well-dark {
+    background-color: #1f2429;
+    background-image: radial-gradient(rgba(255, 255, 255, 0.06) 1px, transparent 1px);
+    background-size: 16px 16px;
+}
+
+/* Product image — prevent text-selection drag during hover zoom */
+#main-product-img { user-select: none; -webkit-user-drag: none; }
+
+/* contact — hero overlay */
+.hero-overlay {
+    background: linear-gradient(
+        135deg,
+        rgba(31, 36, 41, 0.96) 0%,
+        rgba(31, 36, 41, 0.85) 55%,
+        rgba(31, 36, 41, 0.55) 100%
+    );
+}
+
+/* contact — remove default focus outline (custom ring via Tailwind) */
+input:focus,
+textarea:focus,
+select:focus {
+    outline: none;
+}
+
+/* contact — hide native <details> marker */
+details > summary { list-style: none; }
+details > summary::-webkit-details-marker { display: none; }
+
+/* Safe-area-inset for fixed floating elements on iOS notch/home-bar devices */
+a[title="Chat on WhatsApp"] {
+    bottom: max(1.5rem, env(safe-area-inset-bottom));
+    right: max(1.5rem, env(safe-area-inset-right));
+}
+

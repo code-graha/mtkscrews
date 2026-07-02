@@ -1,0 +1,10 @@
+# Archived / unused project files (old docs, backups, exports) — not part of the site
+_archive/
+.claude/
+
+# npm dependencies (tailwindcss, sharp) — reinstall with `npm install`
+node_modules/
+
+# OS / editor clutter
+.DS_Store
+Thumbs.db

@@ -1,0 +1,48 @@
+# MTK Screws – Aggarwal Industries
+# https://mtkscrews.com/robots.txt
+
+# ── General crawlers ─────────────────────────────────────────
+User-agent: *
+Allow: /
+Disallow: /cdn-cgi/
+
+# ── Google ───────────────────────────────────────────────────
+User-agent: Googlebot
+Allow: /
+
+# Allows Google to use content for AI training (Gemini, SGE)
+User-agent: Google-Extended
+Allow: /
+
+# ── OpenAI / ChatGPT ─────────────────────────────────────────
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+# ── Anthropic / Claude ───────────────────────────────────────
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+# ── Perplexity ───────────────────────────────────────────────
+User-agent: PerplexityBot
+Allow: /
+
+# ── Meta / Llama ─────────────────────────────────────────────
+User-agent: FacebookBot
+Allow: /
+
+# ── Microsoft / Bing / Copilot ───────────────────────────────
+User-agent: Bingbot
+Allow: /
+
+# ── Apple ────────────────────────────────────────────────────
+User-agent: Applebot
+Allow: /
+
+# ── Sitemap ──────────────────────────────────────────────────
+Sitemap: https://mtkscrews.com/sitemap.xml

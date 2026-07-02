@@ -1,0 +1,700 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96" />
+    <link rel="icon" type="image/svg+xml" href="/assets/favicon/favicon.svg" />
+    <link rel="shortcut icon" href="/assets/favicon/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="MTK Screws" />
+    <link rel="manifest" href="/assets/favicon/site.webmanifest" />
+    <title>Industrial Screws, Bolts &amp; Rivets Catalogue | MTK Screws – Aggarwal Industries</title>
+    <meta name="description" content="Browse 52 industrial fasteners across 8 categories — stainless steel machine screws, self-tapping screws, self-drilling screws, rivets, allen bolts and more. ISO 9001:2015 certified. MTK Screws, India.">
+    <meta name="keywords" content="machine screws catalogue India, self tapping screws supplier, self drilling screws India, rivets manufacturer India, allen bolts supplier, stainless steel fasteners catalogue, industrial fasteners catalogue India, DIN screws, ISO screws, pan head screws, CSK screws, torx screws, drywall screws India">
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="MTK Screws – Aggarwal Industries">
+    <meta property="og:title" content="Industrial Screws, Bolts &amp; Rivets Catalogue | MTK Screws – Aggarwal Industries">
+    <meta property="og:description" content="Browse 52 industrial fasteners across 8 categories — stainless steel machine screws, self-tapping screws, self-drilling screws, rivets, allen bolts and more. ISO 9001:2015 certified.">
+    <meta property="og:url" content="https://mtkscrews.com/products">
+    <meta property="og:image" content="https://mtkscrews.com/assets/og-default.jpg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta property="og:image:alt" content="MTK Screws industrial fasteners catalogue – screws, bolts, rivets and allen bolts">
+    <meta property="og:locale" content="en_IN">
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Industrial Screws, Bolts &amp; Rivets Catalogue | MTK Screws">
+    <meta name="twitter:description" content="52 industrial fasteners across 8 categories — machine screws, self-tapping screws, rivets, allen bolts and more. ISO 9001:2015 certified. MTK Screws, India.">
+    <meta name="twitter:image" content="https://mtkscrews.com/assets/og-default.jpg">
+    <link rel="canonical" href="https://mtkscrews.com/products">
+    <!-- Structured Data — Organization -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "MTK Screws – Aggarwal Industries",
+      "alternateName": ["MTK Screws", "mtkscrews", "Aggarwal Industries"],
+      "url": "https://mtkscrews.com",
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://mtkscrews.com/assets/mtk-logo.png"
+      },
+      "foundingDate": "1983",
+      "description": "ISO 9001:2015 certified manufacturer of stainless steel machine screws, self-tapping screws, self-drilling screws, rivets and allen bolts. 40+ years of manufacturing excellence, 4000+ clients, supplying pan-India.",
+      "email": "aggarwalindustries311@gmail.com",
+      "telephone": ["+919711221918", "+919810229770"],
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "A-003/11, Site-V, Kasna Industrial Area",
+        "addressLocality": "Greater Noida",
+        "addressRegion": "Uttar Pradesh",
+        "postalCode": "201310",
+        "addressCountry": "IN"
+      },
+      "contactPoint": {
+        "@type": "ContactPoint",
+        "telephone": "+919711221918",
+        "contactType": "sales",
+        "availableLanguage": ["English", "Hindi"],
+        "hoursAvailable": {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": ["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"],
+          "opens": "09:00",
+          "closes": "18:00"
+        }
+      },
+      "sameAs": [
+        "https://www.linkedin.com/in/aggarwal-industries-203b47394",
+        "https://www.instagram.com/aggarwalindustries311"
+      ],
+      "hasOfferCatalog": {
+        "@type": "OfferCatalog",
+        "name": "Industrial Fasteners Catalogue",
+        "url": "https://mtkscrews.com/products"
+      },
+      "areaServed": "Worldwide"
+    }
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Open+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/tailwind.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <style>
+        /* Loading screen — critical, inlined so it paints before external CSS loads */
+        #loading-screen {
+            position: fixed;
+            inset: 0;
+            z-index: 9999;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 16px;
+            background: #F6F8FB;
+            transition: opacity .3s ease;
+        }
+        #loading-screen.loading-screen--hidden {
+            opacity: 0;
+            pointer-events: none;
+        }
+        #loading-screen .loading-spinner {
+            width: 40px;
+            height: 40px;
+            border: 3px solid #dfe1e3;
+            border-top-color: #ed1a25;
+            border-radius: 50%;
+            animation: loading-screen-spin .8s linear infinite;
+        }
+        @keyframes loading-screen-spin { to { transform: rotate(360deg); } }
+        @media (prefers-reduced-motion: reduce) {
+            #loading-screen .loading-spinner { animation: none; }
+        }
+    </style>
+</head>
+<body class="text-gray-800 antialiased overflow-x-hidden">
+    <div id="loading-screen" aria-hidden="true">
+        <img src="/assets/mtk-logo.png" alt="" width="64" height="64" class="rounded-lg">
+        <div class="loading-spinner"></div>
+    </div>
+
+    <!-- ======================= HEADER ======================= -->
+
+    <!-- Top Contact Bar -->
+    <div id="top-bar" class="bg-navy-900 text-white/80 text-sm py-2 px-6 hidden md:block">
+        <div class="max-w-[1440px] mx-auto flex justify-between items-center">
+            <div class="flex items-center gap-6">
+                <a href="tel:+919711221918" class="hover:text-orange-500 transition-colors flex items-center gap-2">
+                    <i class="fa-solid fa-phone text-orange-500"></i> +91 97112 21918
+                </a>
+                <a href="mailto:aggarwalindustries311@gmail.com" class="hover:text-orange-500 transition-colors flex items-center gap-2">
+                    <i class="fa-solid fa-envelope text-orange-500"></i> aggarwalindustries311@gmail.com
+                </a>
+                <span class="flex items-center gap-2">
+                    <i class="fa-solid fa-clock text-orange-500"></i> Mon - Sat: 9:00 AM - 5:30 PM
+                </span>
+            </div>
+            <div class="flex items-center gap-4">
+                <a href="http://linkedin.com/" target="_blank" rel="noopener noreferrer" class="hover:text-orange-500 transition-colors" aria-label="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="http://instagram.com/" target="_blank" rel="noopener noreferrer" class="hover:text-orange-500 transition-colors" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Header Navigation -->
+    <header id="main-header" class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100 shadow-sm">
+        <div class="max-w-[1440px] mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="/" class="flex items-center gap-3">
+                <img src="/assets/mtk-logo.png" width="512" height="512" alt="MTK Screws Logo" class="h-14 w-auto rounded-lg">
+                <div class="flex flex-col">
+                    <span class="font-heading font-bold text-2xl text-navy-900 leading-tight">MTK Screws</span>
+                    <span class="text-xs text-gray-500 font-semibold tracking-wider uppercase">Aggarwal Industries</span>
+                </div>
+            </a>
+
+            <nav class="hidden lg:flex items-center gap-8">
+                <a href="/" class="font-heading font-semibold text-gray-600 hover:text-orange-500 transition-colors">Home</a>
+                <div class="relative group cursor-pointer">
+                    <a href="/products" class="font-heading font-semibold text-gray-600 hover:text-orange-500 transition-colors flex items-center gap-1">
+                        Products <i class="fa-solid fa-chevron-down text-xs"></i>
+                    </a>
+                    <div id="mega-menu" class="absolute top-full left-1/2 -translate-x-1/2 mt-4 w-[680px] bg-white rounded-card shadow-soft p-6 opacity-0 invisible group-hover:opacity-100 group-hover:visible transition-all duration-300 grid grid-cols-2 gap-6 border border-gray-100">
+                        <!-- Populated by JS -->
+                        <noscript>
+                            <div>
+                                <div class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Manufacturing</div>
+                                <ul class="space-y-2">
+                                    <li><a href="/products#mfg-machine-screw" class="text-sm text-gray-600 hover:text-orange-500">Machine Screw</a></li>
+                                    <li><a href="/products#mfg-self-tapping" class="text-sm text-gray-600 hover:text-orange-500">Self Tapping Screw</a></li>
+                                </ul>
+                            </div>
+                            <div>
+                                <div class="text-xs font-bold text-gray-400 uppercase tracking-widest mb-3">Trading</div>
+                                <ul class="space-y-2">
+                                    <li><a href="/products#trd-self-drilling" class="text-sm text-gray-600 hover:text-orange-500">Self Drilling Screw</a></li>
+                                    <li><a href="/products#trd-self-tapping" class="text-sm text-gray-600 hover:text-orange-500">Self Tapping Screw</a></li>
+                                    <li><a href="/products#trd-machine-screw" class="text-sm text-gray-600 hover:text-orange-500">Machine Screw</a></li>
+                                    <li><a href="/products#trd-rivets" class="text-sm text-gray-600 hover:text-orange-500">Rivets</a></li>
+                                    <li><a href="/products#trd-fasteners" class="text-sm text-gray-600 hover:text-orange-500">Fasteners</a></li>
+                                    <li><a href="/products#trd-allen-bolt" class="text-sm text-gray-600 hover:text-orange-500">Allen Bolt</a></li>
+                                </ul>
+                            </div>
+                        </noscript>
+                    </div>
+                </div>
+                <a href="/about" class="font-heading font-semibold text-gray-600 hover:text-orange-500 transition-colors">About Us</a>
+                <a href="/certifications" class="font-heading font-semibold text-gray-600 hover:text-orange-500 transition-colors">Certifications</a>
+                <a href="/gallery" class="font-heading font-semibold text-gray-600 hover:text-orange-500 transition-colors">Gallery</a>
+                <a href="/contact" class="font-heading font-semibold text-gray-600 hover:text-orange-500 transition-colors">Contact</a>
+            </nav>
+
+            <div class="hidden lg:flex items-center gap-4">
+                <a href="/assets/MTK%20Screws%20Catalog.pdf" target="_blank" class="text-navy-900 border border-navy-200 hover:border-navy-900 px-5 py-2.5 rounded-pill font-heading font-semibold text-sm transition-colors flex items-center gap-2">
+                    <i class="fa-regular fa-file-pdf"></i> Catalog
+                </a>
+                <a href="/contact#quote" class="bg-orange-500 hover:bg-orange-600 text-white px-6 py-2.5 rounded-pill font-heading font-semibold text-sm shadow-float transition-all flex items-center gap-2">
+                    Get a Quote <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+
+            <button id="menu-toggle" class="lg:hidden text-navy-900 text-2xl" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-menu">
+                <i class="fa-solid fa-bars" id="menu-icon"></i>
+            </button>
+        </div>
+
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-t border-gray-100 px-6 pb-6">
+            <nav class="flex flex-col gap-1 pt-4 font-heading font-semibold text-sm">
+                <a href="/" class="py-3 border-b border-gray-100 text-gray-700">Home</a>
+                <details class="py-1 border-b border-gray-100">
+                    <summary class="py-2 text-orange-500 list-none flex items-center justify-between cursor-pointer">
+                        Products <i class="fa-solid fa-chevron-down text-xs"></i>
+                    </summary>
+                    <div id="mobile-products-menu" class="pl-3 pb-3 pt-1 grid grid-cols-2 gap-3 text-xs font-semibold text-gray-700">
+                        <!-- Populated by JS -->
+                    </div>
+                </details>
+                <a href="/about" class="py-3 border-b border-gray-100 text-gray-700">About Us</a>
+                <a href="/certifications" class="py-3 border-b border-gray-100 text-gray-700">Certifications</a>
+                <a href="/gallery" class="py-3 border-b border-gray-100 text-gray-700">Gallery</a>
+                <a href="/contact" class="py-3 text-gray-700">Contact</a>
+            </nav>
+            <div class="mt-5 flex flex-col gap-3">
+                <a href="/assets/MTK%20Screws%20Catalog.pdf" target="_blank" class="flex items-center justify-center gap-2 bg-white border border-navy-200 text-navy-900 px-6 py-3 rounded-pill font-heading font-bold text-sm">
+                    <i class="fa-regular fa-file-pdf"></i> Catalog
+                </a>
+                <a href="/contact#quote" class="flex items-center justify-center gap-2 bg-orange-500 text-white px-6 py-3 rounded-pill font-heading font-bold text-sm shadow-float">
+                    Get a Quote <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/919711221918?text=Hi" target="_blank" rel="noopener noreferrer" class="fixed bottom-6 right-6 w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center text-3xl shadow-lg z-50 hover:scale-110 transition-transform" title="Chat on WhatsApp" aria-label="WhatsApp">
+        <i class="fa-brands fa-whatsapp"></i>
+    </a>
+
+
+    <!-- ======================= PAGE HERO ======================= -->
+    <section id="page-hero" class="relative pt-8 pb-10 md:pt-20 md:pb-24 bg-gradient-to-br from-navy-900 via-navy-800 to-navy-900 overflow-hidden">
+        <div class="absolute inset-0 opacity-5" style="background-image: radial-gradient(#ffffff 2px, transparent 2px); background-size: 30px 30px;"></div>
+        <div class="absolute -top-10 -right-10 w-80 h-80 bg-orange-500/20 rounded-full blur-3xl"></div>
+        <div class="absolute -bottom-20 -left-10 w-80 h-80 bg-orange-500/10 rounded-full blur-3xl"></div>
+
+        <div class="max-w-[1440px] mx-auto px-6 relative z-10">
+            <nav class="flex items-center gap-2 text-white/50 text-xs font-semibold mb-6">
+                <a href="home" class="hover:text-white transition-colors">Home</a>
+                <i class="fa-solid fa-angle-right text-[10px]"></i>
+                <span class="text-white">Products</span>
+            </nav>
+
+            <div class="max-w-3xl">
+                <div class="inline-flex items-center gap-2 bg-orange-500/20 text-orange-400 px-4 py-2 rounded-pill text-sm font-semibold mb-6">
+                    <i class="fa-solid fa-screwdriver-wrench"></i> Full Product Catalogue
+                </div>
+                <h1 class="text-3xl sm:text-5xl lg:text-7xl font-heading font-extrabold text-white leading-[1.05] mb-6">
+                    Every Screw <span class="text-transparent bg-clip-text bg-gradient-to-r from-orange-400 to-orange-500">We Make & Trade</span>
+                </h1>
+                <p class="text-lg text-white/70 leading-relaxed max-w-2xl">
+                    Browse our full catalogue grouped by category. Two categories produced in-house at Kasna and six categories sourced from vetted partners — <span id="hero-total-count">52</span> products in total. Click any product for full specifications.
+                </p>
+            </div>
+
+            <div class="mt-10 grid sm:grid-cols-2 gap-4 max-w-3xl">
+                <a href="#manufacturing" class="bg-white/10 backdrop-blur border border-white/15 rounded-2xl p-5 flex items-center gap-4 hover:bg-white/15 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-orange-500/20 text-orange-400 flex items-center justify-center text-lg shrink-0">
+                        <i class="fa-solid fa-industry"></i>
+                    </div>
+                    <div>
+                        <div class="text-[10px] text-orange-300 uppercase tracking-widest font-bold mb-0.5">Manufacturing</div>
+                        <div class="font-heading font-bold text-white" id="hero-mfg-count">2 categories</div>
+                        <div class="text-white/50 text-xs">Machine · Self Tapping</div>
+                    </div>
+                </a>
+                <a href="#trading" class="bg-white/10 backdrop-blur border border-white/15 rounded-2xl p-5 flex items-center gap-4 hover:bg-white/15 transition-colors">
+                    <div class="w-12 h-12 rounded-xl bg-white/15 text-white flex items-center justify-center text-lg shrink-0">
+                        <i class="fa-solid fa-truck-fast"></i>
+                    </div>
+                    <div>
+                        <div class="text-[10px] text-white/60 uppercase tracking-widest font-bold mb-0.5">Trading</div>
+                        <div class="font-heading font-bold text-white" id="hero-trd-count">6 categories</div>
+                        <div class="text-white/50 text-xs">Drilling · Tapping · Machine · Rivets · Fasteners · Allen</div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======================= STICKY FILTER ======================= -->
+    <section id="filter-bar" class="bg-white border-b border-gray-100 sticky top-[72px] z-30">
+        <div class="max-w-[1440px] mx-auto px-6">
+            <div class="flex overflow-x-auto gap-2 py-4 no-scrollbar">
+                <button onclick="filterTrack('all')" data-filter="all" class="filter-btn bg-navy-900 text-white px-5 py-2 rounded-pill font-heading font-semibold text-sm whitespace-nowrap transition-all">
+                    <i class="fa-solid fa-grid-2 mr-1.5 text-xs"></i> All
+                </button>
+                <button onclick="filterTrack('mfg')" data-filter="mfg" class="filter-btn bg-white text-gray-600 hover:bg-gray-50 border border-gray-200 px-5 py-2 rounded-pill font-heading font-semibold text-sm whitespace-nowrap transition-all">
+                    <i class="fa-solid fa-industry mr-1.5 text-xs"></i> Manufacturing
+                </button>
+                <button onclick="filterTrack('trd')" data-filter="trd" class="filter-btn bg-white text-gray-600 hover:bg-gray-50 border border-gray-200 px-5 py-2 rounded-pill font-heading font-semibold text-sm whitespace-nowrap transition-all">
+                    <i class="fa-solid fa-truck-fast mr-1.5 text-xs"></i> Trading
+                </button>
+                <div class="hidden lg:block w-px bg-gray-200 mx-2"></div>
+                <span class="hidden lg:inline-flex items-center text-xs text-gray-400 font-semibold whitespace-nowrap px-2 py-2">
+                    <span id="filter-count-label">Showing all 52 products</span>
+                </span>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======================= MANUFACTURING TRACK ======================= -->
+    <section id="manufacturing" class="py-10 lg:py-20 bg-light track-section" data-track="mfg">
+        <div class="max-w-[1440px] mx-auto px-6">
+            <!-- Section header -->
+            <div class="grid lg:grid-cols-3 gap-6 items-end mb-8 lg:gap-10 lg:mb-12">
+                <div class="lg:col-span-2">
+                    <div class="inline-flex items-center gap-2 text-orange-500 mb-3 text-[11px] tracking-[.18em] uppercase font-heading font-bold">
+                        <span class="w-8 h-px bg-orange-500"></span>
+                        <i class="fa-solid fa-industry"></i> Manufacturing
+                    </div>
+                    <h2 class="text-2xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-navy-900 mb-4 leading-tight">Made In-House at Our<br>Kasna Industrial Facility</h2>
+                    <p class="text-gray-600 text-lg max-w-2xl leading-relaxed" id="mfg-lead">
+                        Specialised production categories on multi-station cold forging machines with in-house heat treatment and quality inspection.
+                    </p>
+                </div>
+                <div class="bg-navy-900 text-white rounded-card p-6 custom-card-shape">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fa-solid fa-circle-check text-orange-500"></i>
+                        <span class="font-heading font-bold text-sm">In-house Production</span>
+                    </div>
+                    <ul class="space-y-2 text-sm text-white/70">
+                        <li class="flex gap-2"><i class="fa-solid fa-check text-orange-500 mt-1 text-xs shrink-0"></i> Stainless grades 201, 204, 304, 316(L)</li>
+                        <li class="flex gap-2"><i class="fa-solid fa-check text-orange-500 mt-1 text-xs shrink-0"></i> Custom dimensions from drawing</li>
+                        <li class="flex gap-2"><i class="fa-solid fa-check text-orange-500 mt-1 text-xs shrink-0"></i> EN 10204 3.1 MTC on request</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Jump pills (populated by JS) -->
+            <div class="flex flex-wrap gap-2 mb-6 lg:mb-10" data-jump="mfg"></div>
+
+            <!-- Category sections (populated by JS) -->
+            <div data-track-grid="mfg"></div>
+
+            <!-- CTA -->
+            <div class="bg-navy-900 rounded-card p-5 lg:p-10 flex flex-col lg:flex-row gap-5 justify-between items-center relative overflow-hidden custom-card-shape-alt mt-4">
+                <div class="absolute top-0 right-0 w-56 h-56 bg-white/5 rounded-full -mr-20 -mt-20"></div>
+                <div class="absolute -bottom-12 -left-12 w-48 h-48 bg-orange-500/15 rounded-full blur-2xl"></div>
+                <div class="relative max-w-2xl">
+                    <h3 class="font-heading font-bold text-white text-2xl mb-2">Custom Drawing? We Tool It.</h3>
+                    <p class="text-white/60 text-sm leading-relaxed">Both Manufacturing categories accept custom drawings — any head, drive, or material — minimum tooling cost only.</p>
+                </div>
+                <a href="contact#quote" class="relative inline-flex items-center gap-2 bg-orange-500 hover:bg-orange-600 text-white font-heading font-bold px-6 py-3.5 rounded-pill shadow-float transition-all whitespace-nowrap">
+                    Upload Drawing & Get Quote <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======================= TRACK DIVIDER ======================= -->
+    <div class="bg-light border-y border-gray-100">
+        <div class="max-w-[1440px] mx-auto px-6 py-4 flex items-center justify-center gap-4 text-gray-400">
+            <span class="h-px flex-1 bg-gray-200"></span>
+            <span class="text-[10px] uppercase tracking-widest font-bold">also stocked & supplied</span>
+            <span class="h-px flex-1 bg-gray-200"></span>
+        </div>
+    </div>
+
+
+    <!-- ======================= TRADING TRACK ======================= -->
+    <section id="trading" class="py-10 lg:py-20 bg-white track-section" data-track="trd">
+        <div class="max-w-[1440px] mx-auto px-6">
+            <!-- Section header -->
+            <div class="grid lg:grid-cols-3 gap-6 items-end mb-8 lg:gap-10 lg:mb-12">
+                <div class="lg:col-span-2">
+                    <div class="inline-flex items-center gap-2 text-navy-900 mb-3 text-[11px] tracking-[.18em] uppercase font-heading font-bold">
+                        <span class="w-8 h-px bg-navy-900"></span>
+                        <i class="fa-solid fa-truck-fast"></i> Trading
+                    </div>
+                    <h2 class="text-2xl sm:text-4xl lg:text-5xl font-heading font-extrabold text-navy-900 mb-4 leading-tight">Sourced From Vetted<br>Partners. Dispatched Pan-India.</h2>
+                    <p class="text-gray-600 text-lg max-w-2xl leading-relaxed" id="trd-lead">
+                        Stocked categories — every batch is sample-inspected before it leaves our Greater Noida warehouse.
+                    </p>
+                </div>
+                <div class="bg-light border border-gray-200 rounded-card p-6 custom-card-shape">
+                    <div class="flex items-center gap-3 mb-4">
+                        <i class="fa-solid fa-warehouse text-navy-900"></i>
+                        <span class="font-heading font-bold text-sm text-navy-900">Trading Catalogue</span>
+                    </div>
+                    <ul class="space-y-2 text-sm text-gray-600">
+                        <li class="flex gap-2"><i class="fa-solid fa-check text-orange-500 mt-1 text-xs shrink-0"></i> Mixed-pallet orders welcome</li>
+                        <li class="flex gap-2"><i class="fa-solid fa-check text-orange-500 mt-1 text-xs shrink-0"></i> Same-day dispatch on stock items</li>
+                        <li class="flex gap-2"><i class="fa-solid fa-check text-orange-500 mt-1 text-xs shrink-0"></i> Bulk pricing from 50 kg upwards</li>
+                    </ul>
+                </div>
+            </div>
+
+            <!-- Jump pills (populated by JS) -->
+            <div class="flex flex-wrap gap-2 mb-6 lg:mb-10" data-jump="trd"></div>
+
+            <!-- Category sections (populated by JS) -->
+            <div data-track-grid="trd"></div>
+
+            <!-- CTA -->
+            <div class="bg-light border border-gray-200 rounded-card p-5 lg:p-10 flex flex-col lg:flex-row gap-5 justify-between items-center custom-card-shape mt-4">
+                <div class="max-w-2xl">
+                    <h3 class="font-heading font-bold text-navy-900 text-2xl mb-2">Mixed-Item Pallet?</h3>
+                    <p class="text-gray-600 text-sm leading-relaxed">Send us your full BOQ across rivets, fastners, Allen bolts and screws — single dispatch, consolidated freight, anywhere in India.</p>
+                </div>
+                <a href="contact#quote" class="inline-flex items-center gap-2 bg-navy-900 hover:bg-navy-800 text-white font-heading font-bold px-6 py-3.5 rounded-pill transition-all whitespace-nowrap">
+                    Send Your BOQ <i class="fa-solid fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======================= STANDARDS STRIP ======================= -->
+    <section class="py-10 lg:py-16 bg-navy-900 relative overflow-hidden">
+        <div class="absolute inset-0 opacity-5" style="background-image: radial-gradient(#ffffff 2px, transparent 2px); background-size: 30px 30px;"></div>
+        <div class="max-w-[1440px] mx-auto px-6 relative z-10">
+            <div class="text-center mb-6 lg:mb-10">
+                <h3 class="font-heading text-2xl lg:text-3xl font-extrabold text-white mb-3">Manufacturing Standards We Follow</h3>
+                <p class="text-white/50 text-sm">All products manufactured as per international standards upon request</p>
+            </div>
+            <div class="grid grid-cols-3 md:grid-cols-6 gap-4">
+                <div class="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-5 text-center hover:bg-white/15 transition-colors"><div class="font-heading font-extrabold text-2xl text-white mb-1">DIN</div><div class="text-[10px] text-white/50 uppercase tracking-widest font-semibold">German</div></div>
+                <div class="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-5 text-center hover:bg-white/15 transition-colors"><div class="font-heading font-extrabold text-2xl text-white mb-1">ISO</div><div class="text-[10px] text-white/50 uppercase tracking-widest font-semibold">International</div></div>
+                <div class="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-5 text-center hover:bg-white/15 transition-colors"><div class="font-heading font-extrabold text-2xl text-white mb-1">IS</div><div class="text-[10px] text-white/50 uppercase tracking-widest font-semibold">Indian</div></div>
+                <div class="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-5 text-center hover:bg-white/15 transition-colors"><div class="font-heading font-extrabold text-2xl text-white mb-1">ANSI</div><div class="text-[10px] text-white/50 uppercase tracking-widest font-semibold">American</div></div>
+                <div class="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-5 text-center hover:bg-white/15 transition-colors"><div class="font-heading font-extrabold text-2xl text-white mb-1">BS</div><div class="text-[10px] text-white/50 uppercase tracking-widest font-semibold">British</div></div>
+                <div class="bg-white/10 backdrop-blur border border-white/20 rounded-2xl p-5 text-center hover:bg-white/15 transition-colors"><div class="font-heading font-extrabold text-2xl text-white mb-1">JIS</div><div class="text-[10px] text-white/50 uppercase tracking-widest font-semibold">Japanese</div></div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ======================= BOTTOM CTA ======================= -->
+    <section class="py-8 lg:py-24 bg-white">
+        <div class="max-w-4xl mx-auto px-6 text-center">
+            <div class="inline-flex items-center gap-2 bg-orange-100 text-orange-600 px-4 py-2 rounded-pill text-sm font-semibold mb-6">
+                <i class="fa-solid fa-bolt"></i> Ready to Order?
+            </div>
+            <h2 class="font-heading text-4xl lg:text-5xl font-extrabold text-navy-900 mb-6">Can't Find What You Need?</h2>
+            <p class="text-gray-600 text-lg mb-10 max-w-2xl mx-auto leading-relaxed">We manufacture any fastener type to your exact specifications. Share your drawings or requirements and get a quote within 24 hours.</p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <a href="contact#quote" class="bg-orange-500 hover:bg-orange-600 text-white px-8 py-4 rounded-pill font-heading font-bold text-base shadow-float transition-all flex items-center gap-3">
+                    Request a Quote <i class="fa-solid fa-arrow-right"></i>
+                </a>
+                <a href="tel:+919711221918" class="bg-white border-2 border-navy-900 text-navy-900 hover:bg-navy-900 hover:text-white px-8 py-4 rounded-pill font-heading font-bold text-base transition-all flex items-center gap-3">
+                    <i class="fa-solid fa-phone"></i> Call Us Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+
+    <footer id="main-footer" class="bg-navy-950 text-gray-400 pt-8 pb-5 md:pt-20 md:pb-10 border-t border-navy-900">
+        <div class="max-w-[1440px] mx-auto px-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 md:gap-12 mb-10 md:mb-16">
+                <div class="space-y-6">
+                    <a href="/" class="flex items-center gap-3"><img src="/assets/mtk-logo.png" width="512" height="512" alt="MTK Screws Logo" class="h-14 w-auto rounded-lg" loading="lazy">
+                        <div class="flex flex-col">
+                            <span class="font-heading font-bold text-2xl text-white leading-tight">MTK Screws</span>
+                            <span class="text-xs text-gray-500 font-semibold tracking-wider uppercase">Aggarwal Industries</span>
+                        </div>
+                    </a>
+                    <p class="text-sm leading-relaxed">
+                        Leading manufacturer and exporter of premium stainless steel screws and high-tensile fasteners since 1983.
+                    </p>
+                    <div class="flex gap-4">
+                        <a href="http://linkedin.com/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-navy-900 flex items-center justify-center hover:bg-orange-500 hover:text-white transition-colors" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="http://instagram.com/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-navy-900 flex items-center justify-center hover:bg-orange-500 hover:text-white transition-colors" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                </div>
+
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-6">Products</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="/products#mfg-machine-screw" class="hover:text-orange-500 transition-colors">Machine Screw</a></li>
+                        <li><a href="/products#mfg-self-tapping" class="hover:text-orange-500 transition-colors">Self Tapping Screw</a></li>
+                        <li><a href="/products#trd-self-drilling" class="hover:text-orange-500 transition-colors">Self Drilling Screw</a></li>
+                        <li><a href="/products#trd-self-tapping" class="hover:text-orange-500 transition-colors">Self Tapping Screw</a></li>
+                        <li><a href="/products#trd-machine-screw" class="hover:text-orange-500 transition-colors">Machine Screw</a></li>
+                        <!-- <li><a href="/products#trd-rivets" class="hover:text-orange-500 transition-colors">Rivets</a></li>
+                        <li><a href="/products#trd-fasteners" class="hover:text-orange-500 transition-colors">Fasteners</a></li>
+                        <li><a href="/products#trd-allen-bolt" class="hover:text-orange-500 transition-colors">Allen Bolt</a></li> -->
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-6">Company</h4>
+                    <ul class="space-y-3 text-sm">
+                        <li><a href="/about" class="hover:text-orange-500 transition-colors">About Us</a></li>
+                        <li><a href="/certifications" class="hover:text-orange-500 transition-colors">Quality & Certifications</a></li>
+                        <li><a href="/gallery" class="hover:text-orange-500 transition-colors">Manufacturing Facility</a></li>
+                        <li><a href="/assets/MTK%20Screws%20Catalog.pdf" target="_blank" class="hover:text-orange-500 transition-colors">Download Catalog</a></li>
+                        <li><a href="/contact" class="hover:text-orange-500 transition-colors">Contact Us</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-heading font-bold text-white text-lg mb-6">Head Office & Works</h4>
+                    <ul class="space-y-4 text-sm">
+                        <li class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot text-orange-500 mt-1"></i>
+                            <span>A-003/11, Site-V, Kasna Industrial Area,<br>Greater Noida, UP – 201310</span>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-phone text-orange-500"></i>
+                            <a href="tel:+919711221918" class="hover:text-white transition-colors">+91 97112 21918</a>
+                        </li>
+                        <li class="flex items-center gap-3">
+                            <i class="fa-solid fa-envelope text-orange-500"></i>
+                            <a href="mailto:aggarwalindustries311@gmail.com" class="hover:text-white transition-colors">aggarwalindustries311@gmail.com</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="border-t border-navy-900 pt-6 flex flex-col md:flex-row justify-between items-center gap-3 text-xs">
+                <p>&copy; 2024 Aggarwal Industries (MTK Screws). All rights reserved.</p>
+                <p class="text-gray-500">Crafted and Managed by <a href="https://webgraha.com" target="_blank" rel="noopener noreferrer"><span class="text-orange-500 font-semibold">WebGraha</span></a></p>
+                <div class="flex gap-6">
+                    <a href="/policy" class="hover:text-white transition-colors">Privacy Policy</a>
+                    <a href="/policy" class="hover:text-white transition-colors">Terms of Service</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- ======================= DATA + RENDER ======================= -->
+    <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script src="/js/products-data.js"></script>
+    <script src="/js/script.js"></script>
+    <script>
+    (function () {
+        var DATA = window.PRODUCTS_DATA;
+        var detailHref = window.PRODUCTS_RENDER.detailHref;
+
+        // Collect total counts for hero
+        var mfgCount = DATA.manufacturing.reduce(function (n, c) { return n + c.products.length; }, 0);
+        var trdCount = DATA.trading.reduce(function (n, c) { return n + c.products.length; }, 0);
+
+        document.getElementById('hero-total-count').textContent = mfgCount + trdCount;
+        document.getElementById('hero-mfg-count').textContent  = DATA.manufacturing.length + ' categories · ' + mfgCount + ' products';
+        document.getElementById('hero-trd-count').textContent  = DATA.trading.length + ' categories · ' + trdCount + ' products';
+        document.getElementById('filter-count-label').textContent = 'Showing all ' + (mfgCount + trdCount) + ' products';
+
+        document.getElementById('mfg-lead').textContent =
+            DATA.manufacturing.length + ' specialised categories, ' + mfgCount + ' products produced on multi-station cold forging machines with in-house heat treatment and quality inspection.';
+        document.getElementById('trd-lead').textContent =
+            DATA.trading.length + ' categories, ' + trdCount + ' products held in stock — every batch is sample-inspected before it leaves our Greater Noida warehouse.';
+
+        // ─── Detailed product card ─────────────────────────────────────
+        function productCard(p, cat) {
+            var fullSlug = cat.slug + '__' + p.slug;
+            var href = detailHref(fullSlug);
+            var isMfg = cat.track === 'mfg';
+
+            // Track badge
+            var trackBadge = isMfg
+                ? '<span class="absolute top-3 left-3 bg-orange-500 text-white text-[10px] font-bold tracking-wide uppercase px-2.5 py-1 rounded-pill"><i class="fa-solid fa-industry mr-1 text-[9px]"></i> ' + cat.trackLabel + '</span>'
+                : '<span class="absolute top-3 left-3 bg-navy-900 text-white text-[10px] font-bold tracking-wide uppercase px-2.5 py-1 rounded-pill"><i class="fa-solid fa-truck-fast mr-1 text-[9px]"></i> ' + cat.trackLabel + '</span>';
+
+            // Tag badge (Bestseller, Stocked, etc.) — optional
+            var tagBadge = p.tag
+                ? '<span class="absolute top-3 right-3 bg-white text-navy-900 text-[10px] font-bold px-2 py-1 rounded shadow-sm border border-gray-200">' + p.tag + '</span>'
+                : '';
+
+            // Spec chips: pick the most informative 3 specs (product-specific overrides take priority over shared)
+            var specs = Object.assign({}, cat.shared, p.specs);
+            // Prefer Head Type / Drive / Material / Grade / Thread / Length for chips
+            var chipKeys = ['Head Type', 'Drive', 'Thread', 'Material', 'Grade'];
+            var chipsHtml = chipKeys.filter(function (k) { return specs[k]; }).slice(0, 3).map(function (k) {
+                return '<span class="inline-flex items-center gap-1 text-[10px] bg-light text-gray-700 px-2 py-1 rounded font-semibold"><span class="text-gray-400">' + k + ':</span> ' + specs[k] + '</span>';
+            }).join('');
+
+            // Icon panel background varies by track (fallback only)
+            var iconBg = isMfg ? 'card-image-well' : 'card-image-well-dark';
+            var iconColor = isMfg ? 'text-navy-800 group-hover:text-orange-500' : 'text-white/70 group-hover:text-orange-400';
+
+            // Image panel — real photo if available, SVG icon fallback
+            var hasImg = p.images && p.images.length > 0;
+            var imgPanel = hasImg
+                ? '<div class="relative h-44 overflow-hidden bg-white">' +
+                    '<img src="' + p.images[0] + '" alt="' + p.name + '" class="w-full h-full object-contain transition-transform duration-500 group-hover:scale-105" loading="lazy">' +
+                    trackBadge + tagBadge +
+                  '</div>'
+                : '<div class="relative h-44 ' + iconBg + ' flex items-center justify-center overflow-hidden">' +
+                    '<svg class="relative w-24 h-24 ' + iconColor + ' transition-all duration-300 group-hover:scale-110" aria-hidden="true"><use href="#' + p.icon + '"/></svg>' +
+                    trackBadge + tagBadge +
+                  '</div>';
+
+            return [
+                '<a href="' + href + '" class="product-card group bg-white rounded-2xl overflow-hidden border border-gray-100 shadow-sm hover:shadow-soft hover:-translate-y-0.5 hover:border-orange-200 transition-all flex flex-col">',
+                  imgPanel,
+                  '<div class="p-5 flex-1 flex flex-col">',
+                    '<div class="flex items-baseline justify-between mb-1 gap-2">',
+                      '<h4 class="font-heading font-bold text-navy-900 text-lg leading-tight">' + p.name + '</h4>',
+                      '<span class="text-[10px] text-gray-400 font-semibold uppercase tracking-wider whitespace-nowrap shrink-0">' + cat.name + '</span>',
+                    '</div>',
+                    '<p class="text-xs text-gray-500 mb-4 line-clamp-2 leading-relaxed">' + p.shortDesc + '</p>',
+                    chipsHtml ? '<div class="flex flex-wrap gap-1.5 mb-4">' + chipsHtml + '</div>' : '',
+                    '<div class="mt-auto pt-4 border-t border-gray-100 flex items-center justify-between">',
+                      '<span class="text-xs font-heading font-bold text-navy-900 group-hover:text-orange-500 transition-colors">View Details</span>',
+                      '<span class="w-8 h-8 rounded-full bg-orange-50 text-orange-500 flex items-center justify-center group-hover:bg-orange-500 group-hover:text-white transition-colors">',
+                        '<i class="fa-solid fa-arrow-right text-xs"></i>',
+                      '</span>',
+                    '</div>',
+                  '</div>',
+                '</a>',
+            ].join('');
+        }
+
+        // ─── Category section (header + product grid) ──────────────────
+        function categorySection(cat) {
+            var trackBadge = cat.track === 'mfg'
+                ? '<span class="hidden md:inline-flex items-center gap-2 bg-orange-100 text-orange-600 px-3 py-1.5 rounded-pill text-[10px] font-bold tracking-wide uppercase shrink-0"><i class="fa-solid fa-industry"></i> We Make This</span>'
+                : '<span class="hidden md:inline-flex items-center gap-2 bg-navy-900 text-white px-3 py-1.5 rounded-pill text-[10px] font-bold tracking-wide uppercase shrink-0"><i class="fa-solid fa-truck-fast"></i> Trading</span>';
+
+            var cards = cat.products.map(function (p) { return productCard(p, cat); }).join('\n');
+
+            return [
+                '<div id="' + cat.slug + '" class="mb-16 scroll-mt-32">',
+                  '<div class="flex flex-wrap items-end gap-4 mb-6 pb-4 border-b border-gray-200">',
+                    '<div class="w-1.5 h-9 bg-orange-500 rounded-full"></div>',
+                    '<div class="flex-1 min-w-0">',
+                      '<div class="flex items-center gap-3 mb-1">',
+                        '<h3 class="font-heading text-2xl lg:text-3xl font-extrabold text-navy-900">' + cat.name + '</h3>',
+                        '<span class="text-[10px] uppercase tracking-widest font-bold text-gray-400">' + cat.products.length + ' products</span>',
+                      '</div>',
+                      '<p class="text-sm text-gray-500">' + cat.lead + '</p>',
+                    '</div>',
+                    trackBadge,
+                  '</div>',
+                  '<div class="grid sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-5">',
+                    cards,
+                  '</div>',
+                '</div>',
+            ].join('');
+        }
+
+        // ─── Jump pills ────────────────────────────────────────────────
+        function jumpPills(cats) {
+            return cats.map(function (c) {
+                return '<a href="#' + c.slug + '" class="text-xs font-heading font-semibold px-3.5 py-1.5 rounded-pill bg-white border border-gray-200 text-gray-700 hover:border-orange-500 hover:text-orange-500 transition-colors whitespace-nowrap">' + c.name + ' <span class="text-gray-400">·' + c.products.length + '</span></a>';
+            }).join('');
+        }
+
+        // ─── Render everything ─────────────────────────────────────────
+        document.querySelector('[data-track-grid="mfg"]').innerHTML = DATA.manufacturing.map(categorySection).join('');
+        document.querySelector('[data-track-grid="trd"]').innerHTML = DATA.trading.map(categorySection).join('');
+        document.querySelector('[data-jump="mfg"]').innerHTML = jumpPills(DATA.manufacturing);
+        document.querySelector('[data-jump="trd"]').innerHTML = jumpPills(DATA.trading);
+
+        // ─── Footer columns ────────────────────────────────────────────
+        document.getElementById('footer-mfg').innerHTML = DATA.manufacturing.map(function (c) {
+            return '<li><a href="products#' + c.slug + '" class="hover:text-orange-500 transition-colors">' + c.name + '</a></li>';
+        }).join('');
+        document.getElementById('footer-trd').innerHTML = DATA.trading.map(function (c) {
+            return '<li><a href="products#' + c.slug + '" class="hover:text-orange-500 transition-colors">' + c.name + '</a></li>';
+        }).join('');
+    })();
+
+    // ─── Track filter (All / Manufacturing / Trading) ──────────────────
+    function filterTrack(track) {
+        document.querySelectorAll('.track-section').forEach(function (s) {
+            s.style.display = (track === 'all' || s.dataset.track === track) ? '' : 'none';
+        });
+        document.querySelectorAll('.filter-btn').forEach(function (btn) {
+            var active = btn.dataset.filter === track;
+            btn.className = active
+                ? 'filter-btn bg-navy-900 text-white px-5 py-2 rounded-pill font-heading font-semibold text-sm whitespace-nowrap transition-all'
+                : 'filter-btn bg-white text-gray-600 hover:bg-gray-50 border border-gray-200 px-5 py-2 rounded-pill font-heading font-semibold text-sm whitespace-nowrap transition-all';
+        });
+        var DATA = window.PRODUCTS_DATA;
+        var label = document.getElementById('filter-count-label');
+        if (track === 'all') {
+            var total = DATA.manufacturing.reduce(function (n, c) { return n + c.products.length; }, 0)
+                      + DATA.trading.reduce(function (n, c) { return n + c.products.length; }, 0);
+            label.textContent = 'Showing all ' + total + ' products';
+        } else if (track === 'mfg') {
+            var n = DATA.manufacturing.reduce(function (n, c) { return n + c.products.length; }, 0);
+            label.textContent = 'Showing ' + n + ' manufacturing products';
+        } else {
+            var n2 = DATA.trading.reduce(function (n, c) { return n + c.products.length; }, 0);
+            label.textContent = 'Showing ' + n2 + ' trading products';
+        }
+    }
+    </script>
+    <script src="/js/coming-soon-popup.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,35 @@
+{
+  "name": "mtkscrews",
+  "version": "1.0.0",
+  "private": true,
+  "description": "MTK Screws — static marketing site (manufacturing & trading of fasteners)",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "build": "npm run build:css",
+    "build:css": "tailwindcss -i ./css/input.css -o ./css/tailwind.css --minify",
+    "watch:css": "tailwindcss -i ./css/input.css -o ./css/tailwind.css --watch",
+    "gallery": "node scripts/generate-gallery.js",
+    "optimize-images": "node scripts/optimize-images.js",
+    "serve": "npx --yes serve -l 3000 .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/code-graha/mtkscrews.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/code-graha/mtkscrews/issues"
+  },
+  "homepage": "https://github.com/code-graha/mtkscrews#readme",
+  "devDependencies": {
+    "sharp": "^0.35.3",
+    "tailwindcss": "^3.4.19"
+  }
+}
