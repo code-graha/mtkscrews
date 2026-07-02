@@ -149,7 +149,7 @@
     <header id="main-header" class="bg-white/90 backdrop-blur-md sticky top-0 z-50 border-b border-gray-100 shadow-sm">
         <div class="max-w-[1440px] mx-auto px-6 py-4 flex justify-between items-center">
             <a href="/" class="flex items-center gap-3">
-                <img src="/assets/mtk-logo.png" width="512" height="512" alt="MTK Screws Logo" class="h-14 w-auto rounded-lg">
+                <img src="/assets/mtk-logo.png" width="512" height="512" alt="MTK Screws Logo" class="h-14 w-auto rounded-lg" style="max-height:56px;width:auto">
                 <div class="flex flex-col">
                     <span class="font-heading font-bold text-2xl text-navy-900 leading-tight">MTK Screws</span>
                     <span class="text-xs text-gray-500 font-semibold tracking-wider uppercase">Aggarwal Industries</span>
@@ -241,10 +241,10 @@
 
     <!-- ======================= BREADCRUMB ======================= -->
     <div class="bg-white border-b border-gray-100 py-4">
-        <div class="max-w-[1440px] mx-auto px-6 flex items-center gap-2 text-sm text-gray-500" id="breadcrumb">
-            <a href="home" class="hover:text-orange-500 transition-colors">Home</a>
-            <i class="fa-solid fa-chevron-right text-xs"></i>
-            <a href="products" class="hover:text-orange-500 transition-colors">Products</a>
+        <div class="max-w-[1440px] mx-auto px-6 flex items-center gap-2 text-sm text-gray-500 overflow-x-auto no-scrollbar" id="breadcrumb">
+            <a href="home" class="hover:text-orange-500 transition-colors shrink-0 whitespace-nowrap">Home</a>
+            <i class="fa-solid fa-chevron-right text-xs shrink-0"></i>
+            <a href="products" class="hover:text-orange-500 transition-colors shrink-0 whitespace-nowrap">Products</a>
         </div>
     </div>
 
@@ -272,7 +272,7 @@
         <div class="max-w-[1440px] mx-auto px-6">
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 md:gap-12 mb-6 md:mb-16">
                 <div class="space-y-6">
-                    <a href="/" class="flex items-center gap-3"><img src="/assets/mtk-logo.png" width="512" height="512" alt="MTK Screws Logo" class="h-14 w-auto rounded-lg" loading="lazy">
+                    <a href="/" class="flex items-center gap-3"><img src="/assets/mtk-logo.png" width="512" height="512" alt="MTK Screws Logo" class="h-14 w-auto rounded-lg" style="max-height:56px;width:auto" loading="lazy">
                         <div class="flex flex-col">
                             <span class="font-heading font-bold text-2xl text-white leading-tight">MTK Screws</span>
                             <span class="text-xs text-gray-500 font-semibold tracking-wider uppercase">Aggarwal Industries</span>
@@ -475,16 +475,19 @@
 
         // Breadcrumb
         var trackPage = isMfg ? '#manufacturing' : '#trading';
-        document.getElementById('breadcrumb').innerHTML =
-            '<a href="home" class="hover:text-orange-500 transition-colors">Home</a>' +
-            '<i class="fa-solid fa-chevron-right text-xs"></i>' +
-            '<a href="products" class="hover:text-orange-500 transition-colors">Products</a>' +
-            '<i class="fa-solid fa-chevron-right text-xs"></i>' +
-            '<a href="products' + trackPage + '" class="hover:text-orange-500 transition-colors">' + category.trackLabel + '</a>' +
-            '<i class="fa-solid fa-chevron-right text-xs"></i>' +
-            '<a href="products#' + category.slug + '" class="hover:text-orange-500 transition-colors">' + category.name + '</a>' +
-            '<i class="fa-solid fa-chevron-right text-xs"></i>' +
-            '<span class="text-navy-900 font-semibold">' + product.name + '</span>';
+        var breadcrumbEl = document.getElementById('breadcrumb');
+        breadcrumbEl.innerHTML =
+            '<a href="home" class="hover:text-orange-500 transition-colors shrink-0 whitespace-nowrap">Home</a>' +
+            '<i class="fa-solid fa-chevron-right text-xs shrink-0"></i>' +
+            '<a href="products" class="hover:text-orange-500 transition-colors shrink-0 whitespace-nowrap">Products</a>' +
+            '<i class="fa-solid fa-chevron-right text-xs shrink-0"></i>' +
+            '<a href="products' + trackPage + '" class="hover:text-orange-500 transition-colors shrink-0 whitespace-nowrap">' + category.trackLabel + '</a>' +
+            '<i class="fa-solid fa-chevron-right text-xs shrink-0"></i>' +
+            '<a href="products#' + category.slug + '" class="hover:text-orange-500 transition-colors shrink-0 whitespace-nowrap">' + category.name + '</a>' +
+            '<i class="fa-solid fa-chevron-right text-xs shrink-0"></i>' +
+            '<span class="text-navy-900 font-semibold shrink-0 whitespace-nowrap">' + product.name + '</span>';
+        // Scroll to the end so the current page (not just "Home") is visible on narrow screens
+        breadcrumbEl.scrollLeft = breadcrumbEl.scrollWidth;
 
         // Specs (category-shared + product-specific overrides)
         var specs = Object.assign({}, category.shared, product.specs);
@@ -849,6 +852,7 @@
     }
     </script>
     <script src="/js/coming-soon-popup.js"></script>
+    <script src="/js/devtools-protection.js"></script>
 </body>
 </html>
 
