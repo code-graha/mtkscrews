@@ -29,7 +29,15 @@
     const onErrorPage = /^\/(404|405)(\.html)?$/i.test(window.location.pathname) ||
                         /[/\\](404|405)(\.html)?$/i.test(window.location.pathname);
 
-    if (!onErrorPage) {
+    // Skip on mobile/touch devices — there's no desktop DevTools to open here,
+    // and iOS/Android browsers' collapsing address/toolbar UI changes
+    // innerHeight independently of outerHeight as the user scrolls, which
+    // false-triggers the outerWidth/innerWidth heuristic below (seen as a
+    // real customer getting redirected to /405 on iPhone Safari).
+    const isMobile = /Android|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ||
+                      (navigator.maxTouchPoints > 1 && /MacIntel/.test(navigator.platform));
+
+    if (!onErrorPage && !isMobile) {
         let devtoolsOpen = false;
         const THRESHOLD = 160;
         const isInIframe = window.self !== window.top;
